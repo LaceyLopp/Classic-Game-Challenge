@@ -5362,6 +5362,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1323493116}
     m_Modifications:
+    - target: {fileID: 22664756805616165, guid: c203b387c4591b649ab36259e4583324, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22664756805616165, guid: c203b387c4591b649ab36259e4583324, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -8727310878432971220, guid: c9999e835f046c44f8a3e8ab4f30ec1b, type: 2}
     - target: {fileID: 1590631708624715002, guid: c203b387c4591b649ab36259e4583324, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -6944,7 +6952,6 @@ MonoBehaviour:
   winText: {fileID: 1390220149}
   gameOverText: {fileID: 1384809057}
   restartText: {fileID: 1033795158}
-  playerScoreText: {fileID: 1499369237}
   fireRate: 0.997
 --- !u!4 &2091027878
 Transform:
@@ -7441,6 +7448,14 @@ PrefabInstance:
     - target: {fileID: 4736534770876071552, guid: 5c9592e371e6da94496fecfb9b3dacca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746334905053562487, guid: 5c9592e371e6da94496fecfb9b3dacca, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746334905053562487, guid: 5c9592e371e6da94496fecfb9b3dacca, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5001903453655959860, guid: 5c9592e371e6da94496fecfb9b3dacca, type: 3}
       propertyPath: m_Name
