@@ -2,18 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
-
 
 public class GameOver : MonoBehaviour
 {
 
     public static bool isPlayerDead = false;
-    public TextMeshProUGUI gameOverText;
+    private Text gameOver;
 
     void Start()
-    {
-        gameOverText.enabled = false;
+    {        gameOver = GetComponent<Text>();
+        gameOver.enabled = false;
     }
 
     void Update()
@@ -21,7 +19,7 @@ public class GameOver : MonoBehaviour
         if (isPlayerDead)
         {
             Time.timeScale = 0;
-            gameOverText.enabled = true;
+            gameOver.enabled = true;
         }
     }
 }

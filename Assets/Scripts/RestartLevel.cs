@@ -11,7 +11,6 @@ public class RestartLevel : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-
             GameOver.isPlayerDead = false;
             Time.timeScale = 1;
 
