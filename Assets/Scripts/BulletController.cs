@@ -25,7 +25,8 @@ public class BulletController : MonoBehaviour {
 		if (other.tag == "Enemy") {
 			Destroy (other.gameObject);
 			Destroy (gameObject);
-			PlayerScore.instance.AddPoint();
+            PlayerScore.instance.AddPoint();
+
         }
         else if (other.tag == "Base")
 			Destroy (gameObject);
