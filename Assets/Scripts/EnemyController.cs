@@ -14,7 +14,6 @@ public class EnemyController : MonoBehaviour
     public TextMeshProUGUI winText;
     public TextMeshProUGUI gameOverText;
     public TextMeshProUGUI restartText;
-    public TextMeshProUGUI playerScoreText;
 
 
 
@@ -27,8 +26,6 @@ public class EnemyController : MonoBehaviour
         winText.enabled = false;
         gameOverText.enabled = false;
         restartText.enabled = false;
-        playerScoreText.enabled = true;
-
 
 
         InvokeRepeating("MoveEnemy", 0.1f, 0.3f);

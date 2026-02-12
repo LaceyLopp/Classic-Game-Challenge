@@ -29,18 +29,16 @@ public class PlayerController : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
-
         if (Input.GetButton ("Fire1") && Time.time > nextFire) {
             nextFire = Time.time + fireRate;
             Instantiate (shot, shotSpawn.position, shotSpawn.rotation);
         }
 
-        //Exits the game
+        //Exits Game
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Application.Quit();
         }
-
     }
 
 }
